@@ -17,6 +17,13 @@ internal class Client {
         Matricula = matricula;
     }
 
+        public void Search(int value) {
+            if (value == Matricula)
+            {
+                Console.WriteLine($"Funcionário: {Name} \n Função: {FuncStaff} \n Matricula: {Matricula}");  
+            }
+
+        }
         public override string ToString()
         {
             return $"Funcionário: {Name} \n Função: {FuncStaff} \n Matricula: {Matricula}";
