@@ -1,7 +1,6 @@
 ﻿using System;
 using MenuInterativo.Models;
 
-
 internal class Program
 {
     static List<Client> clients = new List<Client>();

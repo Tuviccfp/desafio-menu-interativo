@@ -21,7 +21,6 @@ internal class Client {
             {
                 Console.WriteLine($"Funcionário: {Name} \n Função: {FuncStaff} \n Matricula: {Matricula}");  
             }
-
         }
         public override string ToString()
         {
